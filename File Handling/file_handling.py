@@ -1,5 +1,5 @@
 # Open the file in read mode
-file = open("file.txt", "r")  # Replace "file.txt" with the path to your .txt file
+file = open("demofile.txt", "r")  # Replace "file.txt" with the path to your .txt file
 
 # Read the entire contents of the file
 contents = file.read()
