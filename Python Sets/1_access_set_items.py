@@ -16,8 +16,9 @@ if "banana" in thisset:
 
 # Change Items
 # Once a set is created, you cannot change its items, but you can add new items.
+
 tmp = list(thisset)
 tmp.append("orange")
 thisset = set(tmp)
 print(thisset) # OUTPUT：{'cherry', 'orange', 'banana', 'apple'}
-# Actually, sets can be add items by converting into a list
+# Actually, sets can be added items by converting into a list
